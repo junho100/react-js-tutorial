@@ -1,13 +1,26 @@
 import React from "react";
+import PropTypes from "prop-types"
 
-function Food({fav}){
-  return(<h1>i like {fav}</h1>);
-}
+class App extends React.Component{
+  state = {
+    count : 0
+  };
 
-function App() {
-  return (
-    <div className="App"><h1>Hello world!</h1><Food fav = "kimchi" /></div>
-  );
+  add = ()=>{
+    this.setState(current => ({count : current.count + 1}));
+  }
+  minus = ()=>{
+    this.setState(current => ({count : current.count - 1}));
+  }
+  render(){
+    return (
+      <div>
+        <h1>Number is : {this.state.count}</h1>
+        <button onClick = {this.add}>Add</button>
+        <button onClick = {this.minus}>Minus</button>
+      </div>
+    )
+  }
 }
 
 export default App;
