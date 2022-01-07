@@ -2,6 +2,8 @@
 import Home from "./routes/Home.js";
 import Detail from "./routes/Detail.js";
 
-function App() {}
+const App = () => {
+  return null;
+};
 
 export default App;
