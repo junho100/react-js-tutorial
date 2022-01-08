@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/movie">
+        <Route path="/movie/:id">
           <Detail></Detail>
         </Route>
         <Route path="/">
@@ -19,5 +19,3 @@ const App = () => {
 };
 
 export default App;
-
-//TODO : details page 구현
