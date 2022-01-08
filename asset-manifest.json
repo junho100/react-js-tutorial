@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.a265cbad.js",
-    "index.html": "/index.html",
-    "main.a265cbad.js.map": "/static/js/main.a265cbad.js.map"
+    "main.js": "/react-js-tutorial/static/js/main.a265cbad.js",
+    "index.html": "/react-js-tutorial/index.html",
+    "main.a265cbad.js.map": "/react-js-tutorial/static/js/main.a265cbad.js.map"
   },
   "entrypoints": [
     "static/js/main.a265cbad.js"
